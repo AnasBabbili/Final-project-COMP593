@@ -1,0 +1,36 @@
+2022-04-02
+-set up work space in VScode
+-created folder for script in COMP 593 repository in github
+
+2022-04-05
+-worked on get_image_path() command, used previous lecture recordings to figure out how to use the os library.
+-worked on get_apod_info(), wasn't very difficult since it was just making a connection to the NASA API and we've done that a 100 times
+
+
+2022-04-08
+-worked on print_apod_info(), wasn't too much work just printing sentences explaining what the code is doing
+
+2022-04-13
+-looking around to figure out how to do the download_apod_image(), created a request to get image url, 
+-check the status of the connection and return the image_url if successful
+
+2022-04-20
+-attempted to figure out the save_apod_image() command, and gave up after spending nearly 2 hours getting nowhere,
+-created the create_image_db(), pretty stright forward since we have already created db's in a previous lab,
+- finished create_image_db()
+
+2022-04-22
+-started add_image_to_db(), wasn't too much work just making a connection to the db, adding values into table that already exists
+-moved on into image_already_in_db(), made a connection to the db, get hash values of all images already in the db,
+-check whether the image specified by the date provided as a command line already exists in the db
+
+
+2022-04-27
+-looked up how to set an image as a desktop wallpaper, found an stackedoverflow article with one line of code
+
+2022-04-29
+-try to run script but fail to get it to work
+-attempt to finish the save_image_file(), command and after a couple of hours looking around the internet very confused
+still unable to figure out how to save the image
+-look in d2l discussions, find another student struggling with the same command, see Jeremy's response and use the template he gave
+-unable to fill in the blancks to finish my command  
